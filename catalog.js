@@ -86,7 +86,7 @@ function createProductCard(product) {
 
     const quantity = document.createElement("p");
     quantity.className = "Product-Quantity";
-    quantity.textContent = `Quantity: ${product.quantity}`;
+    quantity.textContent = `Stock: ${product.quantity}`;
     card.appendChild(quantity);
 
     return card;
